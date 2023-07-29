@@ -1,5 +1,5 @@
 # HackatonCAIXA
-Hackaton realizado durando a CPBR2023
+Hackaton realizado durando a CPBR15
 
 O projeto foi feito entre os dias 27 e 29.
 
