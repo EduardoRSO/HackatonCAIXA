@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comunidades</title>
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/style-comunidade.css">
+<link rel="shortcut icon" href="./assets/pngwing.com.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="logo" >
+      <img src="./assets/pngwing.com.png" alt="Logo"> <!-- URL de imagem fictícia de 100x100 pixels -->
+    </div>
+    <!-- Colocamos o menu principal dentro de uma div com a classe .menu-items -->
+    <div class="menu-items">
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html">Feed</a></li>
+        <li class="menu-item"><a href="comunidades.html">Comunidades</a></li>
+        <li class="menu-item"><a href="resultados.html">Resultados</a></li>
+        <li class="menu-item"><a href="emblemas.html">Emblemas</a></li>
+      </ul>
+      <!-- E o dropdown continua na mesma posição -->
+      <div class="dropdown-menu">
+        <a href="#">
+          <img src="./assets/streak.png" alt="Imagem 2">
+          <div class="text">
+          <span class="menu-text">Streak</span>
+        </div>
+        </a>
+        <div class="dropdown-content">
+          <a href="#">
+            <img src="./assets/icon/post.svg" alt="Imagem 2">
+            <div class="text">
+            <span class="menu-text">Posts</span>
+            <span class="notification">5</span>
+          </div>
+          </a>
+          <a href="#">
+            <img src="./assets/icon/coment.svg" alt="Imagem 3">
+            <div class="text">
+            <span class="menu-text">Comentários</span>
+            <span class="notification">8</span>
+          </div>
+          </a>
+          <a href="#">
+            <img src="./assets/icon/like.svg" alt="Imagem 4">
+            <div class="text">
+            <span class="menu-text">Curtidas</span>
+            <span class="notification">7</span>
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="extra-content">
+        <img src="./assets/point.png" alt="Foto de perfil"> <!-- Imagem fictícia de 50x50 pixels -->
+        <span>100</span> <!-- Texto de exemplo -->
+      </div>
+
+      <div class="user" onclick="MostrarMenu()">
+        <img src="./assets/usuarios/5.png" alt="Foto de perfil">
+        <div class="dropdown">
+          <ul id="opcoes">
+            <li><a href="#">Meus dados</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="login.html">Sair</a></li>
+          </ul>
+        </div>
+         <!-- Imagem fictícia de 50x50 pixels -->
+      </div>
+      
+    </div>
+
+  </nav>
+  <!-- Menu fixo que está presente em todas as demais páginas-->
+
+<div class="container">
+    <!-- Coluna 1 - Lista de Comunidades -->
+    <div>
+      <button class="create-community-button">Criar Comunidade</button>
+
+
+      <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/1.jpeg">
+        <div>
+        <div class="community-name">Maior comunidade sobre Loto fácil </div>
+        <div class="participants">Participantes: 20/50</div>
+        <div class="desc">Comunidade criada para compartilhar dicas da lotofacil! 💣💣💣</div>
+      </div>
+      </div>
+    </a>
+
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/2.jpeg">
+        <div>
+        <div class="community-name">Hackers da Mega Sena </div>
+        <div class="participants">Participantes: 12/50</div>
+        <div class="desc">Comunidade criada para compartilhar dicas da megasena! 💯💯💯</div>
+      </div>
+      </div>
+    </a>
+
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/3.jpeg">
+        <div>
+        <div class="community-name">Dinheiro à rodo</div>
+        <div class="participants">Participantes: 20/50</div>
+        <div class="desc">Entre aqui para ganhar dinheiro! 🙊🙊🙊🙊</div>
+      </div>
+      </div>
+    </a>
+    
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/4.jpeg" >
+        <div>
+        <div class="community-name">Milionários em formação</div>
+        <div class="participants">Participantes: 31/50</div>
+        <div class="desc">Futuros milionários 💰</div>
+      </div>
+      </div>
+    </a>
+
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/5.jpeg" >
+        <div>
+        <div class="community-name">Quer dinheiro? Vem de Time Mania</div>
+        <div class="participants">Participantes: 7/10</div>
+        <div class="desc">Timemania é a nossa casa!!!😺😺😺</div>
+      </div>
+      </div>
+    </a>
+
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/6.jpeg" >
+        <div>
+        <div class="community-name">Quina é o segredo da riqueza</div>
+        <div class="participants">Participantes: 50/50</div>
+        <div class="desc">Bizus pra ganhar renda na quina 🤑💰🤑</div>
+      </div>
+      </div>
+    </a>
+    
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/7.jpeg" >
+        <div>
+        <div class="community-name">Ganhe na loteca facilmente</div>
+        <div class="participants">Participantes: 21/30</div>
+        <div class="desc">Somos os magos da loteca 🤪💰</div>
+      </div>
+      </div>
+    </a>
+    
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/8.jpeg" >
+        <div>
+        <div class="community-name">Mestres das loterias</div>
+        <div class="participants">Participantes: 3/10</div>
+        <div class="desc">Apostamos em Dia de Sorte, Federal e Super Sete. Vem que aqui é que está a renda extra 🤩🤩</div>
+      </div>
+      </div>
+    </a>
+    
+    <a href="#" class="link">
+      <div class="community">
+        <img class="community-image" src="./assets/comunidades/lista/9.jpeg" >
+        <div>
+        <div class="community-name">Renda Extra fácil</div>
+        <div class="participants">Participantes: 7/15</div>
+        <div class="desc">Já marquei minha viagem pra Dubai 😎😎😎</div>
+      </div>
+      </div>
+    </a> 
+
+
+      <!-- Adicione mais blocos de comunidades aqui -->
+    </div>
+
+    <!-- Coluna 2 - Cards de Comunidades -->
+<div>
+
+    <div class="community-card">
+      <img class="community-image-trend" src="./assets/comunidades/trend/1.jpeg" alt="Imagem da Comunidade">
+      <div class="community-card-name">Entre se quiser uma renda facilitada</div>
+      <div class="desc">Estudei e descobri uma técnica infalível... 😎</div>
+      <div class="community-card-participants">Participantes: 90/100</div>
+    </div>
+
+    <div class="community-card">
+      <img class="community-image-trend" src="./assets/comunidades/trend/2.jpeg" alt="Imagem da Comunidade">
+      <div class="community-card-name">Gurus da loteria</div>
+      <div class="desc">Aquela renda extra pra garantir o churrasco no fim de semana 🤩🤩🤩</div>
+      <div class="community-card-participants">Participantes: 120/150</div>
+    </div>
+
+    <div class="community-card">
+      <img class="community-image-trend" src="./assets/comunidades/trend/3.jpeg" alt="Imagem da Comunidade">
+      <div class="community-card-name">Dinheiro rápido e fácil</div>
+      <div class="desc"> Vamos conseguir maximizar o nível de todos os emblemasss 🤑💰</div>
+      <div class="community-card-participants">Participantes: 44/50</div>
+    </div>
+
+    
+</div>
+    <!-- Adicione mais cards de comunidades aqui -->
+</div>
+
+<script src="./scripts/menu.js"></script>
+<script src="./scripts/user.js"></script>
+
+</body>
+
+</html>
+
+<!-- Adicionar imagem das comunidades ao lado-->

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .chart-container {
+    margin-bottom: 20px;
+  }
+  
+  .data-summary {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .data-summary h2 {
+    margin-top: 0;
+  }
+  
+  .selector {
+    padding-top: 100px;
+    width: 900px;
+    border: 1px, 1px, 1px, 1px;
+    margin: auto;
+    
+  }
+  
+  .selector label {
+    font-weight: bold;
+  }
+  
+  .selector select {
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  

@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas com largura igual */
+    gap: 20px; /* Espaçamento entre as colunas */
+    padding-top: 200px;
+  }
+
+  .community {
+    display: grid;
+    grid-template-columns: 90px 490px;
+    gap: 20px;
+    width: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+  }
+
+  .community-image {
+    width: 100px; /* Ajuste a largura da imagem conforme necessário */
+    height: 80px; /* Ajuste a altura máxima da imagem conforme necessário */
+    border-radius: 5px;
+    margin-right: 10px; /* Adicionamos margem à direita para separar a imagem do título */
+  }
+
+  .community-image-trend {
+    width: 100%; /* Ajuste a largura da imagem conforme necessário */
+    height: 230px; /* Ajuste a altura máxima da imagem conforme necessário */
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Adicionamos margem à direita para separar a imagem do título */
+  }
+  
+  .link{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+
+  }
+
+  .link:hover{
+    text-decoration: none;
+    color: #f58731;
+
+  }
+
+
+
+  .community-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .participants {
+    font-size: 14px;
+    color: #888;
+  }
+
+  .desc {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+
+  /* Estilo do botão "Criar Comunidade" */
+  .create-community-button {
+    width: 622px;
+    margin-left: 100px;
+    background-color: #012eaf;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo dos cards */
+  .community-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 0px 20px 100px;
+  }
+
+  .community-image {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-bottom: 5px; 
+  }
+
+  .community-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .community-card-participants {
+    font-size: 14px;
+    color: #888;
+  }

@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.post-area {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+.post-area textarea {
+  width: 96%;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.post-area-button {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+
+.post-area button {
+  background-color: #fff;
+  color: #f58731;
+  border: 1px solid #f58731;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.post-area button:hover {
+  background-color: #f58731;
+  color: #ffffff;
+}
+
+.preview-image {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.tweet {
+  width: 500px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  position: relative; /* Para permitir o posicionamento absoluto da imagem */
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute; /* Posicionamento absoluto */
+  left: -60px; /* Posição à esquerda para ficar fora do tweet */
+  top: 0; /* Alinhar a imagem ao topo do tweet */
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tweet-content {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.tweet-author {
+  font-weight: bold;
+  color: #012eaf;
+}
+
+.tweet-time {
+  color: #888;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.actions .act {
+  background-color: #fff;
+  color: #f58731;
+  border: 1px solid #f58731;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.actions .act:hover {
+  background-color: #f58731;
+  color: #fff;
+}
+
+.report-button {
+  position: relative;
+  background-color: #ffffff; /* Cor vermelha para o botão de denúncia */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.report-icon {
+  width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+.report-button:hover {
+  border: solid 1px;
+  border-color: red;
+  transition: 0.5s;
+}

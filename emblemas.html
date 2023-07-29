@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emblemas</title>
+    <link rel="stylesheet" href="./css/style-emblemas.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="shortcut icon" href="./assets/pngwing.com.png" type="image/x-icon">
+</head>
+<body>
+    
+  <nav class="navbar" id="navbar">
+    <div class="logo" >
+      <img src="./assets/pngwing.com.png" alt="Logo"> <!-- URL de imagem fictícia de 100x100 pixels -->
+    </div>
+    <!-- Colocamos o menu principal dentro de uma div com a classe .menu-items -->
+    <div class="menu-items">
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html">Feed</a></li>
+        <li class="menu-item"><a href="comunidades.html">Comunidades</a></li>
+        <li class="menu-item"><a href="resultados.html">Resultados</a></li>
+        <li class="menu-item"><a href="emblemas.html">Emblemas</a></li>
+      </ul>
+      <!-- E o dropdown continua na mesma posição -->
+      <div class="dropdown-menu">
+        <a href="#">
+          <img src="./assets/streak.png" alt="Imagem 2">
+          <div class="text">
+          <span class="menu-text">Streak</span>
+        </div>
+        </a>
+        <div class="dropdown-content">
+          <a href="#">
+            <img src="./assets/icon/post.svg" alt="Imagem 2">
+            <div class="text">
+            <span class="menu-text">Posts</span>
+            <span class="notification">5</span>
+          </div>
+          </a>
+          <a href="#">
+            <img src="./assets/icon/coment.svg" alt="Imagem 3">
+            <div class="text">
+            <span class="menu-text">Comentários</span>
+            <span class="notification">8</span>
+          </div>
+          </a>
+          <a href="#">
+            <img src="./assets/icon/like.svg" alt="Imagem 4">
+            <div class="text">
+            <span class="menu-text">Curtidas</span>
+            <span class="notification">7</span>
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="extra-content">
+        <img src="./assets/point.png" alt="Foto de perfil"> <!-- Imagem fictícia de 50x50 pixels -->
+        <span>100</span> <!-- Texto de exemplo -->
+      </div>
+
+      <div class="user" onclick="MostrarMenu()">
+        <img src="./assets/usuarios/5.png" alt="Foto de perfil">
+        <div class="dropdown">
+          <ul id="opcoes">
+            <li><a href="#">Meus dados</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="login.html">Sair</a></li>
+          </ul>
+        </div>
+         <!-- Imagem fictícia de 50x50 pixels -->
+      </div>
+      
+    </div>
+
+  </nav>
+
+
+
+      <!-- cards -->
+
+      <div class="grid">
+        <div class="card">
+          <div class="card-title">Mega-Sena Nível 1</div>
+          <img src="./assets/emblemas/megasena.png" class="card-image">
+          <div class="card-description">Faça 5 apostas na Mega-Sena</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-title">Loto Fácil Nível 1</div>
+          <img src="./assets/emblemas/lotofacil.png" alt="Imagem 2" class="card-image">
+          <div class="card-description">Faça 5 apostas na Loto Fácil</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 40%;"></div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Quina Nível 1</div>
+            <img src="./assets/emblemas/quina.png" alt="Imagem 2" class="card-image">
+            <div class="card-description">Faça 5 apostas na Quina</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Loto Mania Nível 1</div>
+            <img src="./assets/emblemas/lotomania.png" alt="Imagem 2" class="card-image">
+            <div class="card-description">Faça 5 apostas na Loto Mania</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Time Mania Nível 1</div>
+            <img src="./assets/emblemas/timemania.png" alt="Imagem 2" class="card-image">
+            <div class="card-description">Faça 5 apostas na Time Mania</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Dupla Sena Nível 1</div>
+            <img src="./assets/emblemas/duplasena.png" alt="Imagem 2" class="card-image">
+            <div class="card-description">Faça 5 apostas na Dupla Sena</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Federal Nível 1</div>
+            <img src="./assets/emblemas/federal.png" alt="Imagem 2" class="card-image radius">
+            <div class="card-description">Faça 5 apostas na Federal</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Loteca Nível 1</div>
+            <img src="./assets/emblemas/loteca.png" alt="Imagem 2" class="card-image">
+            <div class="card-description">Faça 5 apostas na Loteca</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Comunidades Nível 1</div>
+            <img src="./assets/emblemas/comunidades.svg" alt="Imagem 2" class="card-image">
+            <div class="card-description">Partice de 5 comunidades</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Sortudo Nível 1 </div>
+            <img src="./assets/emblemas/sortudo.svg" alt="Imagem 2" class="card-image">
+            <div class="card-description">Seja sorteado em 5 apostas</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Engajador Nível 1</div>
+            <img src="./assets/emblemas/engajador.svg" alt="Imagem 2" class="card-image">
+            <div class="card-description">Crie de 5 postagens</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">Sociável Nivel 1</div>
+            <img src="./assets/emblemas/sociavel.svg" alt="Imagem 2" class="card-image">
+            <div class="card-description">Faça 5 comentários</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+          </div>
+      
+        <!-- Adicione mais cards aqui -->
+      
+      </div>
+      
+    
+<script src="./scripts/menu.js"></script>      
+<script src="./scripts/user.js"></script>
+</body>
+</html>

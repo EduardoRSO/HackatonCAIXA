@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados</title>
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/style-resultado.css">
+<link rel="shortcut icon" href="./assets/pngwing.com.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="logo" >
+      <img src="./assets/pngwing.com.png" alt="Logo"> <!-- URL de imagem fictícia de 100x100 pixels -->
+    </div>
+    <!-- Colocamos o menu principal dentro de uma div com a classe .menu-items -->
+    <div class="menu-items">
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html">Feed</a></li>
+        <li class="menu-item"><a href="comunidades.html">Comunidades</a></li>
+        <li class="menu-item"><a href="resultados.html">Resultados</a></li>
+        <li class="menu-item"><a href="emblemas.html">Emblemas</a></li>
+      </ul>
+      <!-- E o dropdown continua na mesma posição -->
+      <div class="dropdown-menu">
+        <a href="#">
+          <img src="./assets/streak.png" alt="Imagem 2">
+          <div class="text">
+          <span class="menu-text">Streak</span>
+        </div>
+        </a>
+        <div class="dropdown-content">
+          <a href="#">
+            <img src="./assets/icon/post.svg" alt="Imagem 2">
+            <div class="text">
+            <span class="menu-text">Posts</span>
+            <span class="notification">5</span>
+          </div>
+          </a>
+          <a href="#">
+            <img src="./assets/icon/coment.svg" alt="Imagem 3">
+            <div class="text">
+            <span class="menu-text">Comentários</span>
+            <span class="notification">8</span>
+          </div>
+          </a>
+          <a href="#">
+            <img src="./assets/icon/like.svg" alt="Imagem 4">
+            <div class="text">
+            <span class="menu-text">Curtidas</span>
+            <span class="notification">7</span>
+          </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="extra-content">
+        <img src="./assets/point.png" alt="Foto de perfil"> <!-- Imagem fictícia de 50x50 pixels -->
+        <span>100</span> <!-- Texto de exemplo -->
+      </div>
+
+      <div class="user" onclick="MostrarMenu()">
+        <img src="./assets/usuarios/5.png" alt="Foto de perfil">
+        <div class="dropdown">
+          <ul id="opcoes">
+            <li><a href="#">Meus dados</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="login.html">Sair</a></li>
+          </ul>
+        </div>
+         <!-- Imagem fictícia de 50x50 pixels -->
+      </div>
+      
+    </div>
+
+  </nav>
+  <!-- Menu fixo que está presente em todas as demais páginas-->
+
+  <div class="selector">
+    <label for="modalidade">Escolha a Modalidade da Aposta: </label>
+    <select id="modalidade">
+      <option value="" selected>-- Selecione uma modalidade --</option>
+      <option value="megaSena">MEGA-SENA</option>
+      <option value="lotoFacil">LOTOFÁCIL</option>
+      <option value="quina">QUINA</option>
+      <option value="lotoMania">LOTOMANIA</option>
+      <option value="timeMania">TIMEMANIA</option>
+      <option value="duplaSena">DUPLA SENA</option>
+      <option value="federal">FEDERAL</option>
+      <option value="loteca">LOTECA</option>
+      <option value="diaDeSorte">DIA DE SORTE</option>
+      <option value="superSete">SUPER SETE</option>
+    </select>
+  </div>
+
+  <div class="dashboard">
+    <h1>Dashboard de Controle de Lucros</h1>
+
+    <div class="chart-container">
+      <canvas id="profitChart"></canvas>
+    </div>
+  </div>
+     
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./scripts/resultado.js"></script>
+  <script src="./scripts/menu.js"></script>
+  <script src="./scripts/user.js"></script>
+</body>
+</html>
+

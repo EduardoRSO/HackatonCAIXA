@@ -1,0 +1,175 @@
+.navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: start; /* Alinhamos os elementos no início e no final da navbar */
+    align-items: center;
+    position: fixed;
+    box-shadow: none; /* Inicialmente, não possui sombra */
+    transition: box-shadow 0.3s; /* Adiciona uma transição para a sombra */
+    z-index: 2;
+    width: 100%;
+  }
+  
+  
+  .logo img{
+    width: 30px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  .menu-item a {
+    color: #080808;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu {
+    position: relative;
+    display: inline-block;
+    margin: 0px 80px 0px 500px; /* Adicionamos margem à esquerda para separar o menu dropdown */
+  }
+  
+  .dropdown-menu a{
+    display: flex;
+    text-decoration: none;
+    color: #080808;
+  }
+
+  .dropdown-menu img {
+    width: 24px; /* Ajuste a largura da imagem conforme necessário */
+    height: 24px; /* Ajuste a altura da imagem conforme necessário */
+    margin-right: 8px; /* Adiciona espaço entre a imagem e o texto */
+    margin-top: 5px;
+    border-radius: 50%;
+  }
+
+  .menu-text {
+    flex: 1; /* Faz com que o texto ocupe todo o espaço disponível após a imagem */
+  }
+  
+  /* Estilo do número de notificação */
+  .notification {
+    color: #b12b2b; /* Cor do texto do número de notificação */
+    margin-left: 8px; /* Adiciona espaço entre o texto e o número de notificação */
+  }
+
+  .text {
+
+    /* ajuste de tamanho elementos */
+    max-width: 120px;
+    margin-top: 9px;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    margin:auto;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-menu:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Adicionamos a classe .menu-items para aplicar margem somente às opções do menu principal */
+  .menu-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Aplicamos uma margem maior apenas entre as opções do menu principal */
+  .menu-items .menu-item:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .extra-content {
+    display: flex;
+    align-items: center;
+    color: #080808;
+  }
+  
+  .extra-content img {
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+    border-radius: 50%; /* Bordas arredondadas para simular uma foto de perfil */
+    margin-right: 5px; /* Margem à direita para separar a imagem do texto */
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    color: #080808;
+    margin-left: 30px;
+  }
+  
+  .user img {
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+    border-radius: 50%; /* Bordas arredondadas para simular uma foto de perfil */
+    margin-right: 5px; /* Margem à direita para separar a imagem do texto */
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    padding-left: 50px; /* Ajuste de padding à esquerda */
+  }
+  
+  .dropdown ul {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .dropdown li {
+    padding: 8px;
+  }
+  
+  .dropdown li a {
+    color: #080808;
+    text-decoration: none;
+  }
+
+  .dropdown li a:hover {
+    color: #f58731;
+    text-decoration: none;
+  }
+  
+  /* Exibe o menu quando passar o mouse por cima da imagem de perfil */
+
+
+  #opcoes img{
+
+    height: 20px;
+
+  }

@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+
+    background-image: url('../assets/bg.jpeg'); /* Substitua o URL pela imagem desejada */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .preference {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #012eaf;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0a1f58;
+  }
+  
+
+.preference label {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .preference img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+  }
+  
+  .preference input[type="checkbox"] {
+    display: none;
+  }  
+
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preference-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .preference-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .preference-item input[type="checkbox"] {
+    display: none;
+  }
+  
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* O restante do CSS permanece igual */
+
+.preference-item img {
+  width: 240px;
+  height: 120px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+  cursor: pointer;
+}
+
+.preference-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.6); /* Adicionamos um fundo transparente */
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.preference-item input[type="checkbox"]:checked + label img {
+  border-color: #f58731; /* Cor da borda quando a imagem está selecionada */
+}
